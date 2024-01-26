@@ -1,0 +1,11 @@
+[0.194s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/home/shivam/ros2Workspace04/install/automatedManipulator:/home/shivam/ros2Workspace04/install/arduinobot_py_examples:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.659s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/home/shivam/ros2Workspace04/install/automatedManipulator:/home/shivam/ros2Workspace04/install/arduinobot_py_examples:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.697s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/home/shivam/ros2Workspace04/install/automatedManipulator:/home/shivam/ros2Workspace04/install/arduinobot_py_examples:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_description
+[0.705s] -- Install configuration: ""
+[0.706s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.706s]   file INSTALL cannot find
+[0.706s]   "/home/shivam/arduinobot_ws/src/arduinobot_description/launch": No such
+[0.706s]   file or directory.
+[0.706s] 
+[0.706s] [0m
+[0.710s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_description' returned '1': CMAKE_PREFIX_PATH=/home/shivam/ros2Workspace04/install/automatedManipulator:/home/shivam/ros2Workspace04/install/arduinobot_py_examples:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_description

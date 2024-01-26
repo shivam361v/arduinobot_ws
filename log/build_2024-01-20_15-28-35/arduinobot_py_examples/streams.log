@@ -1,0 +1,19 @@
+[0.925s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_py_examples': PYTHONPATH=/home/shivam/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shivam/arduinobot_ws/build/arduinobot_py_examples/build --no-deps install_data
+[1.264s] running develop
+[1.422s] running egg_info
+[1.422s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[1.422s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[1.422s] writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+[1.423s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[1.423s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[1.428s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.429s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.431s] running build_ext
+[1.431s] Creating /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[1.433s] Installing simple_publisher script to /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.434s] Installing simple_subscriber script to /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.434s] 
+[1.434s] Installed /home/shivam/arduinobot_ws/build/arduinobot_py_examples
+[1.434s] running install_data
+[1.434s] copying package.xml -> /home/shivam/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.479s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_py_examples' returned '0': PYTHONPATH=/home/shivam/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shivam/arduinobot_ws/build/arduinobot_py_examples/build --no-deps install_data

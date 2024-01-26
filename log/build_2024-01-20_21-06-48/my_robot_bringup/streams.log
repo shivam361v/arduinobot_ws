@@ -1,0 +1,51 @@
+[0.531s] Invoking command in '/home/shivam/arduinobot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/my_robot_bringup
+[0.786s] -- The C compiler identification is GNU 11.4.0
+[1.504s] -- The CXX compiler identification is GNU 11.4.0
+[2.519s] -- Detecting C compiler ABI info
+[2.714s] -- Detecting C compiler ABI info - done
+[2.728s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.728s] -- Detecting C compile features
+[2.729s] -- Detecting C compile features - done
+[2.734s] -- Detecting CXX compiler ABI info
+[2.934s] -- Detecting CXX compiler ABI info - done
+[2.942s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.942s] -- Detecting CXX compile features
+[2.942s] -- Detecting CXX compile features - done
+[2.955s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.171s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.299s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.421s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.421s] -- Configured cppcheck include dirs: 
+[3.421s] -- Configured cppcheck exclude dirs and/or files: 
+[3.423s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.425s] -- Added test 'lint_cmake' to check CMake code style
+[3.426s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.432s] -- Added test 'uncrustify' to check C / C++ code style
+[3.432s] -- Configured uncrustify additional arguments: 
+[3.433s] -- Added test 'xmllint' to check XML markup files
+[3.435s] -- Configuring done
+[3.442s] -- Generating done
+[3.443s] -- Build files have been written to: /home/shivam/arduinobot_ws/build/my_robot_bringup
+[3.454s] Invoked command in '/home/shivam/arduinobot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/my_robot_bringup
+[3.455s] Invoking command in '/home/shivam/arduinobot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/my_robot_bringup -- -j12 -l12
+[3.488s] Invoked command in '/home/shivam/arduinobot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/my_robot_bringup -- -j12 -l12
+[3.518s] Invoking command in '/home/shivam/arduinobot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/my_robot_bringup
+[3.525s] -- Install configuration: ""
+[3.526s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/launch
+[3.527s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/launch/demo.launch.py
+[3.528s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[3.528s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[3.529s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[3.530s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[3.530s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[3.531s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[3.532s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[3.532s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[3.532s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[3.532s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[3.532s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[3.533s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[3.533s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[3.534s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[3.534s] -- Installing: /home/shivam/arduinobot_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[3.537s] Invoked command in '/home/shivam/arduinobot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/my_robot_bringup

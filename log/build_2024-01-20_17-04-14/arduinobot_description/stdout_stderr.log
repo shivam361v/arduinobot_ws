@@ -1,0 +1,43 @@
+-- Install configuration: ""
+-- Installing: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+-- Installing: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py:Zone.Identifier
+-- Installing: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/driven_gear.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/driven_gear.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/drive_gear.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL:Zone.Identifier
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/shivam/arduinobot_ws/src/arduinobot_description/rviz": No such file
+  or directory.
+
+[0m
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/drive_gear.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
