@@ -1,0 +1,46 @@
+[0.081s] Invoking command in '/home/shivam/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/src/install/arduinobot_description
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.458s] -- The CXX compiler identification is GNU 11.4.0
+[0.644s] -- Detecting C compiler ABI info
+[0.724s] -- Detecting C compiler ABI info - done
+[0.728s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.729s] -- Detecting C compile features
+[0.729s] -- Detecting C compile features - done
+[0.732s] -- Detecting CXX compiler ABI info
+[0.862s] -- Detecting CXX compiler ABI info - done
+[0.867s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.867s] -- Detecting CXX compile features
+[0.868s] -- Detecting CXX compile features - done
+[0.869s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.982s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.043s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.287s] Invoked command in '/home/shivam/arduinobot_ws/src/build/arduinobot_description' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shivam/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/src/install/arduinobot_description
+[1.294s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

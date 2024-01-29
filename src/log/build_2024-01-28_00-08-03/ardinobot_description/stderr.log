@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:13:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "install{".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

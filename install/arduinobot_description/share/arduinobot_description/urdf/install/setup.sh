@@ -1,1 +1,0 @@
-/home/shivam/arduinobot_ws/src/arduinobot_description/urdf/install/setup.sh

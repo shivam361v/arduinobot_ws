@@ -1,0 +1,10 @@
+[0.065s] Invoking command in '/home/shivam/arduinobot_ws/src/build/ardinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/src/build/ardinobot_description -- -j12 -l12
+[0.078s] [31mCMake Error at CMakeLists.txt:13:
+[0.078s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.078s]   "install{".
+[0.078s] 
+[0.078s] [0m
+[0.078s] -- Configuring incomplete, errors occurred!
+[0.078s] See also "/home/shivam/arduinobot_ws/src/build/ardinobot_description/CMakeFiles/CMakeOutput.log".
+[0.081s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.267s] Invoked command in '/home/shivam/arduinobot_ws/src/build/ardinobot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/src/build/ardinobot_description -- -j12 -l12
