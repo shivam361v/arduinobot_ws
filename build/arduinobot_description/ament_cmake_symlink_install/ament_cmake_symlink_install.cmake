@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "meshes" "urdf" "DESTINATION" "share/arduinobot_description")
-ament_cmake_symlink_install_directory("/home/shivam/arduinobot_ws/src/arduinobot_description" DIRECTORY "meshes" "urdf" "DESTINATION" "share/arduinobot_description")
+# install(DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/arduinobot_description")
+ament_cmake_symlink_install_directory("/home/shivam/arduinobot_ws/src/arduinobot_description" DIRECTORY "meshes" "urdf" "launch" "rviz" "DESTINATION" "share/arduinobot_description")
 
 # install(FILES "/home/shivam/arduinobot_ws/build/arduinobot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/shivam/arduinobot_ws/src/arduinobot_description" FILES "/home/shivam/arduinobot_ws/build/arduinobot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
