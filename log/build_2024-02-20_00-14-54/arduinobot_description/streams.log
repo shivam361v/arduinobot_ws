@@ -1,0 +1,60 @@
+[0.119s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.473s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.516s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_description
+[0.523s] -- Install configuration: ""
+[0.524s] -- Execute custom install script
+[0.524s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[0.524s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[0.525s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[0.525s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[0.525s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[0.525s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/drive_gear.STL
+[0.525s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/driven_gear.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[0.526s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[0.527s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[0.527s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[0.527s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[0.527s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_2.sdf
+[0.528s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_2.sdf:Zone.Identifier
+[0.528s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_3.sdf
+[0.532s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_3.sdf:Zone.Identifier
+[0.533s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_4.sdf
+[0.533s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model-1_4.sdf:Zone.Identifier
+[0.533s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.config
+[0.533s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.config:Zone.Identifier
+[0.536s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.sdf
+[0.536s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/ground_plane/model.sdf:Zone.Identifier
+[0.536s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_2.sdf
+[0.537s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_2.sdf:Zone.Identifier
+[0.537s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_3.sdf
+[0.537s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_3.sdf:Zone.Identifier
+[0.537s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_4.sdf
+[0.541s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model-1_4.sdf:Zone.Identifier
+[0.541s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.config
+[0.542s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.config:Zone.Identifier
+[0.542s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.sdf
+[0.542s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/models/sun/model.sdf:Zone.Identifier
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.543s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.543s] -- Symlinking: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.553s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.554s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.554s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.554s] -- Up-to-date symlink: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.566s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_description
