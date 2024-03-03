@@ -1,0 +1,7 @@
+[01m[K/home/shivam/arduinobot_ws/src/arduinobot_utils/src/angle_conversion.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Karduinobot_msgs/srv/euler_to_quaternion.hpp: No such file or directory
+    2 | #include [01;31m[K"arduinobot_msgs/srv/euler_to_quaternion.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/angle_conversion.dir/build.make:76: CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/angle_conversion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

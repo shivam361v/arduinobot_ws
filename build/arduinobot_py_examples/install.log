@@ -1,7 +1,11 @@
+/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_client.py
+/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_server.py
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_parameter.py
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_subscriber.py
+/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__pycache__/simple_service_client.cpython-310.pyc
+/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__pycache__/simple_service_server.cpython-310.pyc
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__pycache__/__init__.cpython-310.pyc
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__pycache__/simple_publisher.cpython-310.pyc
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__pycache__/simple_parameter.cpython-310.pyc
@@ -17,4 +21,6 @@
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_parameter
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_publisher
+/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_service_client
+/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_service_server
 /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_subscriber

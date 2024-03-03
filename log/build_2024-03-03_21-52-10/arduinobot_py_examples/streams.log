@@ -1,0 +1,28 @@
+[0.853s] Invoking command in '/home/shivam/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/home/shivam/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/shivam/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/shivam/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed
+[1.053s] running egg_info
+[1.054s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.055s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.055s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.057s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.057s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.058s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.059s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.059s] running build
+[1.059s] running build_py
+[1.060s] copying arduinobot_py_examples/simple_service_server.py -> /home/shivam/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.060s] running install
+[1.060s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.060s]   warnings.warn(
+[1.061s] running install_lib
+[1.062s] copying /home/shivam/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_service_server.py -> /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.062s] byte-compiling /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[1.063s] running install_data
+[1.063s] running install_egg_info
+[1.064s] removing '/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.065s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[1.066s] running install_scripts
+[1.083s] Installing simple_parameter script to /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.084s] Installing simple_publisher script to /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.084s] Installing simple_subscriber script to /home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.085s] writing list of installed files to '/home/shivam/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[1.110s] Invoked command in '/home/shivam/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/home/shivam/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/shivam/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/shivam/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/shivam/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed
