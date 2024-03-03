@@ -14,7 +14,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     arduinobot_description = get_package_share_directory('arduinobot_description')
     arduinobot_description_share = get_package_prefix('arduinobot_description')
-    gazebo_ros_dir = get_package_share_directory('gz-harmonic')
+    gazebo_ros_dir = get_package_share_directory('gazebo_ros')
 
     model_arg = DeclareLaunchArgument(name='model', default_value=os.path.join(
                                         arduinobot_description, 'urdf', 'arduinobot.urdf.xacro'

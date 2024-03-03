@@ -1,8 +1,0 @@
-[31mCMake Error at CMakeLists.txt:13:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "install{".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/shivam/arduinobot_ws/src/build/ardinobot_description/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:226: cmake_check_build_system] Error 1

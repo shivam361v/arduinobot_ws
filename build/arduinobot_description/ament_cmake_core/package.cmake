@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "arduinobot_description")
 set(arduinobot_description_VERSION "0.0.0")
-set(arduinobot_description_MAINTAINER "shivam <shivam361v@gmail.com>")
+set(arduinobot_description_MAINTAINER "Antonio Brandi <antonio.brandi@outlook.it>")
 set(arduinobot_description_BUILD_DEPENDS )
 set(arduinobot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(arduinobot_description_BUILD_EXPORT_DEPENDS )
