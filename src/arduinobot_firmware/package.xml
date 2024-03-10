@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>arduinobot_msgs</name>
+  <name>arduinobot_firmware</name>
   <version>0.0.0</version>
-  <description>Definition of Interfaces for the Arduinobot</description>
+  <description>Arduino Firmware</description>
   <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
-  <license>Apàche 2.0</license>
+  <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <build_depend>rosidl_default_generators</build_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
 
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>libserial-dev</depend>
   <depend>std_msgs</depend>
-  <depend>action_msgs</depend>
   
-  <exec_depend>rosidl_default_runtime</exec_depend>
-
-  <member_of_group>rosidl_interface_packages</member_of_group>
+  <exec_depend>python3-serial</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

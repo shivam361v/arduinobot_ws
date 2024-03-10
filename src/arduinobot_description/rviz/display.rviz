@@ -30,7 +30,7 @@ Panels:
     Property Tree Widget:
       Expanded: ~
       Splitter Ratio: 0.5
-    Tree Height: 373
+    Tree Height: 172
 Visualization Manager:
   Class: ""
   Displays:
@@ -53,6 +53,8 @@ Visualization Manager:
           Value: true
         horizontal_arm:
           Value: true
+        tool_link:
+          Value: true
         world:
           Value: true
       Marker Scale: 1
@@ -70,7 +72,8 @@ Visualization Manager:
                     gripper_left:
                       {}
                     gripper_right:
-                      {}
+                      tool_link:
+                        {}
       Update Interval: 0
       Value: true
     - Alpha: 0.5
@@ -126,6 +129,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        tool_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         world:
           Alpha: 1
           Show Axes: false
@@ -184,7 +191,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 6.6802978515625
+      Distance: 5.9645514488220215
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -193,14 +200,14 @@ Visualization Manager:
       Focal Point:
         X: 0
         Y: 0
-        Z: -0.3070000112056732
+        Z: 0
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
       Pitch: 0.5453981757164001
-      Target Frame: base_plate
+      Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
       Yaw: 2.22039794921875
     Saved: ~
@@ -220,5 +227,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1304
-  X: 449
-  Y: -32
+  X: 167
+  Y: 122

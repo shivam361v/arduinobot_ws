@@ -1,6 +1,0 @@
-Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/arduinobot_controller
-Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/arduinobot_controller
-Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
-Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
-Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_controller
-Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_controller

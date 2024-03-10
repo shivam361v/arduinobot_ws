@@ -1,9 +1,0 @@
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/uninstall.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/arduinobot_msgs_uninstall.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/test.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/edit_cache.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/rebuild_cache.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/list_install_components.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/install.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/install/local.dir
-/home/shivam/arduinobot_ws/build/arduinobot_msgs/CMakeFiles/install/strip.dir
