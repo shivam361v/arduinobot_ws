@@ -1,0 +1,59 @@
+[0.334s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[0.516s] [ 50%] Built target slider_control
+[0.547s] [100%] Built target arduinobot_controller
+[0.556s] [100%] Built target ament_cmake_python_copy_arduinobot_controller
+[1.306s] running egg_info
+[1.307s] writing arduinobot_controller.egg-info/PKG-INFO
+[1.307s] writing dependency_links to arduinobot_controller.egg-info/dependency_links.txt
+[1.308s] writing top-level names to arduinobot_controller.egg-info/top_level.txt
+[1.309s] reading manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[1.313s] writing manifest file 'arduinobot_controller.egg-info/SOURCES.txt'
+[1.357s] [100%] Built target ament_cmake_python_build_arduinobot_controller_egg
+[1.453s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[1.560s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_controller
+[1.567s] -- Install configuration: ""
+[1.568s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/arduinobot_controller.xml
+[1.568s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.sh
+[1.569s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/pythonpath.dsv
+[1.569s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info
+[1.570s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.570s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.571s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.572s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.572s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller
+[1.572s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/slider_control.py
+[1.572s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller/__init__.py
+[1.612s] Listing '/home/shivam/arduinobot_ws/install/arduinobot_controller/local/lib/python3.10/dist-packages/arduinobot_controller'...
+[1.619s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control
+[1.619s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/lib/libarduinobot_controller.so
+[1.620s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/include/include
+[1.620s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller
+[1.622s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+[1.623s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch
+[1.623s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/slider_controller.launch.py
+[1.623s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[1.624s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config
+[1.624s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[1.624s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/lib/arduinobot_controller/slider_control.py
+[1.625s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.sh
+[1.626s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.dsv
+[1.626s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[1.643s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[1.643s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[1.643s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[1.643s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[1.644s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[1.644s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[1.644s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[1.645s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[1.645s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[1.645s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[1.645s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[1.646s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller
+[1.646s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.661s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.661s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.661s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[1.661s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[1.662s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[1.683s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_controller

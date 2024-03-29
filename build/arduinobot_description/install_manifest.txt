@@ -1,3 +1,5 @@
+/home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL:Zone.Identifier
+/home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_3.sdf
 /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_4.sdf
 /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_2.sdf
