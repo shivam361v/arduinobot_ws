@@ -1,0 +1,264 @@
+//Setting up variables
+
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+
+//Adding up respositories
+
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+
+//Adding Tools and libraries
+
+sudo apt update
+sudo apt upgrade
+sudo apt install ros-humble-desktop
+sudo apt install ros-humble-ros-base
+sudo apt install ros-dev-tools
+
+//Set path to configuration file 
+
+ gedit ~/.bashrc
+ source /opt/ros/humble/setup.bash
+
+//Talker And Listener
+
+ros2 run demo_nodes_cpp talker
+ros2 run demo_nodes_py listener
+
+//Install turtle sim
+
+sudo apt update
+sudo apt install ros-humble-turtlesim
+ros2 pkg executables turtlesim
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+
+//install rqt for multi tools communicate as an plugin + Add multiple nodes as an plugins
+
+sudo apt update
+sudo apt install ~nros-humble-rqt*
+rqt
+
+//Visualizing nodes
+
+ros2 node list
+ros2 node info /my_turtle
+ 
+Definition 
+	Node    - A node is a fundamental ROS 2 element that serves a single, modular purpose in a robotics system.
+	Topic   - Topics are one of the main ways in which data is moved between nodes and therefore between different parts of the system.
+	Service - While topics allow nodes to subscribe to data streams and get continual updates, services only provide data when they are specifically called by a client.
+	Action  - Actions are one of the communication types in ROS 2 and are intended for long running tasks. They consist of three parts: a goal, feedback, and a result.
+
+//List of topics
+
+ros2 topic list -t
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
+
+	
+//Parameters of current node 
+	Parameter - A parameter is a configuration value of a node.
+
+ros2 param list
+ros2 param get /turtlesim background_g
+ros2 param set /turtlesim background_r 150
+
+ros2 action list -t
+ros2 action info /turtle1/rotate_absolute
+ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
+ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: -1.57}" --feedback
+
+//Save and Load
+
+ros2 param dump /turtlesim > turtlesim.yaml
+ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim.yaml
+
+// Save topics and play it
+
+ros2 bag record /turtle1/cmd_vel
+ros2 topic hz /turtle1/pose
+
+// Launch file
+	Launch files - It allow you to start up and configure a number of executables containing ROS 2 nodes simultaneously.
+	
+ros2 launch turtlesim multisim.launch.py
+ros2 topic pub  /turtlesim1/turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+ros2 topic pub  /turtlesim2/turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -1.8}}"
+
+// Record Simulation
+
+mkdir bag_files
+cd bag_files
+ros2 bag record /turtle1/cmd_vel
+
+// Install colcon and create package
+
+sudo apt install python3-colcon-common-extensions
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws
+rm -r -- ./*/                                                                          //Remove all directories
+git clone https://github.com/ros2/examples src/examples -b humble
+colcon build --symlink-install
+source install/setup.bash
+ros2 run examples_rclcpp_minimal_publisher publisher_member_function
+ros2 run examples_rclcpp_minimal_subscriber subscriber_member_function               //Examples
+
+echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc
+echo "export _colcon_cd_root=/opt/ros/humble/" >> ~/.bashrc
+echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+
+//Create workspace
+
+source /opt/ros/humble/setup.bash
+mkdir -p ~/ros2_workspace02/src
+cd ros2Workspace03
+colcon build --symlink-install
+source ~/arduinobot_ws/install/setup.bash               // In ./bashrc file
+cd src
+ros2 pkg create my_robot_controller --build-type ament_python --dependencies rclpy
+ros2 setuptools code -classic
+code .
+pip3 list | grep setuptools                     // Down grade tools version
+pip3 install setuptools==58.2.0
+
+//Create Node in workspace
+
+ touch firstNode.py                            // Within controller
+ chmod +x firstNode.py 
+ {Follow : specify entry point, build, source }
+ 
+// Topic information
+
+ros2 topic list
+ros2 topic info
+
+// Run
+
+ros2 run my_robot_controller turtleSubscriber.py
+
+//Important package
+
+sudo apt update
+sudo apt upgrade
+sudo apt-get install terminator
+sudo apt-get install ros-humble-joint-state-publisher-gui
+sudo apt-get install ros-humble-xacro
+
+sudo apt-get install lsb-release wget gnupg
+sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+sudo apt-get install ros-humble-ros2-control
+sudo apt-get install ros-humble-ros2-controllers
+sudo apt-get install ros-humble-moveit
+echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc            //Colcon source
+sudo apt-get install libserial-dev
+sudo apt-get install python3-pip
+pip install pyserial
+pip install flask
+pip install flask-ask-sdk
+pip install ask-sdk
+
+sudo apt-get install ros-humble-gazebo-ros
+sudo apt-get install ros-humble-gazebo-ros-pkgs
+sudo apt-get install ros-humble-gazebo-ros2-control
+sudo apt-get install ros-humble-robot-localization
+sudo apt-get install ros-humble-joy
+sudo apt-get install ros-humble-joy-teleop
+sudo apt-get install ros-humble-tf-transformations
+sudo apt-get install ros-humble-plotjuggler
+sudo apt-get install ros-humble-plotjuggler-ros
+pip install transforms3d
+
+// Robot Model
+
+ DISPLAY=:0 terminator                                                                             // Use terminator
+
+	//Create an package within workspace
+	//Create urdf and meshes folder and within meshes folder import STL file and create an file with ".urdf.xacro" extension in urdf folder.
+	//Create an model of your robot using XML format in urdf folder
+	
+sudo apt-get install ros-humble-urdf-tutorial
+ros2 launch urdf_tutorial display.launch.py model:=/home/shivam/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro
+
+
+	//Parameter  -- Assign parameter to the node
+
+ros2 param list
+ros2 param get /simple_parameter simple_int_param
+
+	//Visualize Parameters of URDF file in RVIZ -- Create an object of model in the format
+
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro /home/shivam/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro)"
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+ros2 run rviz2 rviz2
+
+pkill -f -9 gzserver
+pkill -f -9 gzclient
+
+	//Launch file - A set of instructions to launch an ros program.
+
+ros2 launch arduinobot_description display.launch.py
+
+	// ROS control - A library to control components
+						to maintain ceratin position of robot
+	//Controller - Controller- manager - resource manager - hardware resource
+
+ros2 pkg create --build-type ament_cmake arduinobot_controller
+
+sudo apt-get install ros-humble-joint-state-broadcaster
+sudo apt-get install ros-humble-joint-trajectory-controller
+sudo apt install ros-humble-forward-command-controller
+
+ros2 control
+ros2 topic list
+ros2 topic pub "publisher" "type of command" 
+
+Kinematics  - To command manipulator on basic of position with forward + inverse Kinematics
+* determine position and orientation with repect to the origin.
+* Postion, orientation, rotation matrix, 
+* Transformation matrix library as TF2
+
+ros2 run tf2_tools view_frames
+evince frames_2024-03-03_19.44.30.pdf 
+ros2 topic info /tf --verbose
+ros2 topic info /tf
+
+
+* Service - An request reponce loop of communication
+*Quaterninon : It is an approch of using real and imaginary ari
+*MOVEIt2 : Automatic trajectory planning and control movement of robot
+*Action : Closed loop feedback responce system
+
+ros2 launch arduinobot_bringup simulated_robot.launch.py 
+python3 alexa_interface.py 
+ngrok http 5000
+
+
+ros2 service call /spawn turtlesim/srv/spawn " 		"      // Assign command to service
+
+* Launch controller along with topic which is subscribed
+
+ros2 launch bumperbot_contro ller controller.launch.py  use_simple_controller:=false
+ros2 service type *service* *message*
+ros2 service call *service* *argument*
+
+ros2 run tf2_tools view_frames                             //view flow of commands
+ros2 run tf2_ros tf2_echo bumperbot_base bumperbot_top     //translation and rotation of links
+
+ros2 run plotjuggler plotjuggler
+
+ros2 run bumerbot_firmware simple_serial_transmitter --ros-args -p port:=/***port _name***
+ros2 topic echo **** topic_name****
+
+* Lifecycle is set of stage of execution of nodes
+ros2 lifecycle nodes                                       //All lifecycle node will be listed
