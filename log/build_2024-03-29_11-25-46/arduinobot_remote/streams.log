@@ -1,0 +1,30 @@
+[0.480s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_remote -- -j12 -l12
+[0.546s] [  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[0.548s] [ 50%] Built target task_server_node
+[0.551s] [100%] Built target task_server
+[0.833s] Traceback (most recent call last):
+[0.833s]   File "/home/shivam/arduinobot_ws/build/arduinobot_remote/ament_cmake_python/arduinobot_remote/setup.py", line 1, in <module>
+[0.833s]     from setuptools import find_packages
+[0.833s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 242, in <module>
+[0.835s]     monkey.patch_all()
+[0.835s]   File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 99, in patch_all
+[0.837s]     patch_for_msvc_specialized_compiler()
+[0.838s]   File "/usr/lib/python3/dist-packages/setuptools/monkey.py", line 136, in patch_for_msvc_specialized_compiler
+[0.838s]     msvc = import_module('setuptools.msvc')
+[0.838s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.840s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.840s]   File "/usr/lib/python3/dist-packages/setuptools/msvc.py", line 22, in <module>
+[0.840s]     import json
+[0.840s]   File "/usr/lib/python3.10/json/__init__.py", line 106, in <module>
+[0.840s]     from .decoder import JSONDecoder, JSONDecodeError
+[0.841s]   File "/usr/lib/python3.10/json/decoder.py", line 5, in <module>
+[0.841s]     from json import scanner
+[0.841s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.841s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.841s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.841s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.841s]   File "<frozen importlib._bootstrap_external>", line 985, in get_code
+[0.841s] KeyboardInterrupt
+[0.872s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_arduinobot_remote_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_arduinobot_remote_egg] Interrupt
+[0.874s] gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/ament_cmake_python_build_arduinobot_remote_egg.dir/all] Interrupt
+[0.874s] gmake: *** [Makefile:146: all] Interrupt

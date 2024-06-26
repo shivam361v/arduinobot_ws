@@ -1,0 +1,27 @@
+[0.031s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.122s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.198s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_description
+[0.212s] -- Install configuration: ""
+[0.213s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+[0.214s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[0.216s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL:Zone.Identifier
+[0.217s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+[0.217s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models
+[0.218s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane
+[0.220s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_2.sdf
+[0.220s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_4.sdf
+[0.220s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model.sdf
+[0.220s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model.config
+[0.220s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_3.sdf
+[0.221s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun
+[0.221s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_2.sdf
+[0.221s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_4.sdf
+[0.221s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.sdf
+[0.222s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.config
+[0.222s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_3.sdf
+[0.222s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[0.223s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[0.223s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[0.223s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz
+[0.237s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.271s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_description

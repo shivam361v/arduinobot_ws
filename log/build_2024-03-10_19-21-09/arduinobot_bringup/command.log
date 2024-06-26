@@ -1,0 +1,6 @@
+Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_bringup -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/arduinobot_bringup
+Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_bringup -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/arduinobot_bringup
+Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_bringup -- -j12 -l12
+Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_bringup -- -j12 -l12
+Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_bringup
+Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_bringup

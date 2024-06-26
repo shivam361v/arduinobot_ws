@@ -1,0 +1,3 @@
+[  0%] Built target ament_cmake_python_copy_arduinobot_remote
+[ 50%] Built target task_server_node
+[100%] Built target task_server

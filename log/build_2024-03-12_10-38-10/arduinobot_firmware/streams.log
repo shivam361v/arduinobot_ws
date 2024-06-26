@@ -1,0 +1,46 @@
+[0.134s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[0.378s] [  0%] Built target ament_cmake_python_copy_arduinobot_firmware
+[0.656s] [ 50%] Built target simple_serial_transmitter
+[0.656s] [100%] Built target simple_serial_receiver
+[1.023s] running egg_info
+[1.034s] writing arduinobot_firmware.egg-info/PKG-INFO
+[1.034s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[1.034s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[1.034s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.035s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.071s] [100%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[1.231s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[1.292s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_firmware
+[1.304s] -- Install configuration: ""
+[1.305s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[1.305s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[1.305s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info
+[1.305s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[1.305s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.305s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[1.308s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.309s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware
+[1.309s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[1.310s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[1.310s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py
+[1.350s] Listing '/home/shivam/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[1.362s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver
+[1.365s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter
+[1.365s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[1.365s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[1.366s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[1.367s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[1.367s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[1.367s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[1.368s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[1.369s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[1.369s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[1.370s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[1.373s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[1.374s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[1.374s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[1.376s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[1.376s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[1.376s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[1.376s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[1.376s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_firmware

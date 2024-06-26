@@ -1,0 +1,8 @@
+setup.py
+arduinobot_firmware/__init__.py
+arduinobot_firmware/simple_serial_receiver.py
+arduinobot_firmware/simple_serial_transmitter.py
+arduinobot_firmware.egg-info/PKG-INFO
+arduinobot_firmware.egg-info/SOURCES.txt
+arduinobot_firmware.egg-info/dependency_links.txt
+arduinobot_firmware.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_msgs -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/arduinobot_msgs
+Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/arduinobot_ws/src/arduinobot_msgs -DCMAKE_INSTALL_PREFIX=/home/shivam/arduinobot_ws/install/arduinobot_msgs
+Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_msgs
+Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_msgs

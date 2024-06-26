@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shivam/arduinobot_ws/build/arduinobot_description
+-- Install configuration: ""
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL:Zone.Identifier
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_2.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_4.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model.config
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/ground_plane/model-1_3.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_2.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_4.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model.config
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/models/sun/model-1_3.sdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+-- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz
+-- Installing: /home/shivam/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv

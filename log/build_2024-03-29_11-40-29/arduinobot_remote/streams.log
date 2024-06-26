@@ -1,0 +1,47 @@
+[0.504s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_remote -- -j12 -l12
+[0.564s] [ 50%] Built target task_server_node
+[0.573s] [ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+[0.575s] [100%] Built target task_server
+[0.878s] running egg_info
+[0.879s] writing arduinobot_remote.egg-info/PKG-INFO
+[0.880s] writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+[0.880s] writing top-level names to arduinobot_remote.egg-info/top_level.txt
+[0.883s] reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[0.883s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[0.914s] [100%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[0.926s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_remote -- -j12 -l12
+[0.972s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_remote
+[0.980s] -- Install configuration: ""
+[0.980s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/lib/arduinobot_remote/task_server_node
+[0.980s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/pythonpath.sh
+[0.981s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/pythonpath.dsv
+[0.981s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info
+[0.981s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/PKG-INFO
+[0.981s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.981s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/top_level.txt
+[0.981s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.982s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote
+[0.982s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/__init__.py
+[0.982s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/alexa_interface.py
+[1.024s] Listing '/home/shivam/arduinobot_ws/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote'...
+[1.025s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/launch
+[1.026s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/launch/remote_interface.launch.py
+[1.027s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/lib/libtask_server.so
+[1.028s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/lib/arduinobot_remote/alexa_interface.py
+[1.028s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/package_run_dependencies/arduinobot_remote
+[1.029s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/parent_prefix_path/arduinobot_remote
+[1.029s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.sh
+[1.029s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.dsv
+[1.029s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/path.sh
+[1.030s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/environment/path.dsv
+[1.030s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.bash
+[1.031s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.sh
+[1.031s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.zsh
+[1.031s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/local_setup.dsv
+[1.032s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv
+[1.032s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/packages/arduinobot_remote
+[1.033s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/ament_index/resource_index/rclcpp_components/arduinobot_remote
+[1.037s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig.cmake
+[1.037s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig-version.cmake
+[1.037s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.xml
+[1.090s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_remote

@@ -1,0 +1,43 @@
+[0.244s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[0.374s] [  9%] Built target simple_service_server
+[0.374s] [ 27%] Built target simple_action_server_node
+[0.374s] [ 27%] Built target simple_publisher
+[0.376s] [ 36%] Built target simple_lifecycle_node
+[0.377s] [ 45%] Built target simple_subscriber
+[0.378s] [ 54%] Built target simple_service_client
+[0.382s] [ 63%] Built target simple_parameter
+[0.384s] [ 72%] Built target simple_action_client
+[0.384s] [ 81%] Built target simple_action_client_node
+[0.388s] [ 90%] Built target simple_action_server
+[0.450s] [100%] Built target simple_moveit_interface
+[0.664s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[0.749s] Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_cpp_examples
+[0.762s] -- Install configuration: ""
+[0.764s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_action_server_node
+[0.766s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_action_client_node
+[0.771s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[0.774s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[0.778s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[0.780s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_service_server
+[0.783s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_service_client
+[0.784s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_moveit_interface
+[0.787s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_lifecycle_node
+[0.791s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/libsimple_action_server.so
+[0.792s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/lib/libsimple_action_client.so
+[0.793s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[0.793s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[0.793s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[0.793s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[0.794s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[0.794s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[0.794s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[0.794s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[0.794s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[0.794s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[0.794s] -- Installing: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[0.795s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[0.795s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/rclcpp_components/arduinobot_cpp_examples
+[0.795s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[0.796s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[0.797s] -- Up-to-date: /home/shivam/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[0.800s] Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shivam/arduinobot_ws/build/arduinobot_cpp_examples
