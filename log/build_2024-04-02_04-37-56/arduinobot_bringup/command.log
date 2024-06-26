@@ -1,2 +1,0 @@
-Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup': /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_bringup -- -j12 -l12
-Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_bringup' returned '2': /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_bringup -- -j12 -l12

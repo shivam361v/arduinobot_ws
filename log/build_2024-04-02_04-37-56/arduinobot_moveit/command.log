@@ -1,2 +1,0 @@
-Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_moveit': /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_moveit -- -j12 -l12
-Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_moveit' returned '2': /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_moveit -- -j12 -l12

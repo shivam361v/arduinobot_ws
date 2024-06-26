@@ -1,2 +1,0 @@
-Invoking command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs': /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
-Invoked command in '/home/shivam/arduinobot_ws/build/arduinobot_msgs' returned '2': /usr/bin/cmake --build /home/shivam/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
